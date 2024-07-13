@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+header #header-part {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 25px;
+  width: 80%;
+}
+header #header-part .left-header {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+header #header-part .left-header nav ul {
+  display: flex;
+  gap: 25px;
+}
+header #header-part .left-header nav ul .list-header a {
+  font-size: 17px;
+  color: black;
+}
+header #header-part .left-header nav ul .list-header a:hover {
+  transition: all 0.6s;
+  color: #FFB54E;
+}
+header #header-part .right-header {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  gap: 25px;
+}
+header #header-part .right-header a:hover {
+  transition: all 0.5s;
+  color: #FFB54E;
+  animation: iconanime 1.5s;
+}
+
+#up-sect {
+  display: flex;
+  justify-content: center;
+}
+#up-sect .up-sect {
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+  align-items: center;
+  margin: 25px;
+  padding: 15px;
+  border-top: 1px solid black;
+}
+#up-sect .up-sect .cards-up-sect {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+#up-sect .up-sect .cards-up-sect .img-up {
+  overflow: hidden;
+  width: 90px;
+  height: 75px;
+}
+#up-sect .up-sect .cards-up-sect .img-up img {
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+}
+#up-sect .up-sect .cards-up-sect .img-up img:hover {
+  transition: all 0.7s;
+  transform: scale(1.15);
+}
+#up-sect .up-sect .cards-up-sect .txt-up {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+#up-sect .up-sect .cards-up-sect .txt-up a {
+  color: black;
+}
+#up-sect .up-sect .cards-up-sect .txt-up a:hover {
+  color: red;
+  transition: all 0.5s;
+  text-decoration: underline;
+}
+#up-sect .up-sect .cards-up-sect .txt-up span {
+  color: #ACACAC;
+  font-size: 14px;
+}
+
+#picked {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+}
+#picked .container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-top: 1px solid black;
+  padding: 15px;
+}
+#picked .container .up-picked {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 98%;
+  padding-top: 15px;
+}
+#picked .container .up-picked h4 {
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 900;
+}
+#picked .container .up-picked span {
+  color: #ACACAC;
+  text-transform: capitalize;
+  font-size: 13px;
+}
+#picked .container .down-picked {
+  display: flex;
+  gap: 20px;
+}
+#picked .container .down-picked .left-picked {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#picked .container .down-picked .left-picked .cards-picked img {
+  height: 425px;
+  width: 475px;
+  object-fit: cover;
+}
+#picked .container .down-picked .right-picked {
+  display: flex;
+  flex-direction: column;
+}
+#picked .container .down-picked .right-picked .cards-picked {
+  width: 250px;
+}
+#picked .container .down-picked .right-picked .cards-picked img {
+  width: 236px;
+  height: 151px;
+}
+#picked .container .down-picked .right-picked .cards-picked-text {
+  gap: 10px;
+}
+#picked .container .cards-picked-text {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+#picked .container .cards-picked-text h5 {
+  color: #FFB54E;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+#picked .container .cards-picked-text a {
+  color: black;
+  font-size: 17px;
+  font-weight: 700;
+}
+#picked .container .cards-picked-text a:hover {
+  transition: all 0.5s;
+  color: red;
+  text-decoration: underline;
+}
+#picked .container .cards-picked-text span {
+  color: #ACACAC;
+  text-transform: capitalize;
+  font-size: 14px;
+}
+#picked aside {
+  width: 312px;
+  height: 671px;
+  padding: 15px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid #ACACAC;
+  border-left: #ACACAC 1px solid;
+}
+#picked aside .up-aside {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+}
+#picked aside .up-aside h4 {
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 900;
+}
+#picked aside .up-aside span {
+  color: #ACACAC;
+  text-transform: capitalize;
+  font-size: 13px;
+}
+#picked aside .news-part .news {
+  display: flex;
+  flex-direction: column;
+  padding-top: 15px;
+  gap: 5px;
+  height: 90px;
+  border-bottom: 1px solid #ACACAC;
+}
+#picked aside .news-part .news a {
+  color: black;
+}
+#picked aside .news-part .news a:hover {
+  transition: all 0.5s;
+  color: red;
+  text-decoration: underline;
+}
+#picked aside .news-part .news span {
+  color: #ACACAC;
+}
+#picked aside .div {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  height: 65px;
+}
+#picked aside .div img {
+  width: 50px;
+  height: 50px;
+  padding-top: 3px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+#picked aside .div span {
+  color: #5d5656;
+}
+
+@keyframes iconanime {
+  from {
+    transform: rotateY(0);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
